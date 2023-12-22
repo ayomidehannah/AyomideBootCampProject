@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz Session</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .js-previous-button,
+    .js-next-button,
+    .js-submit-button {
+      display: none;
+    }
+  </style>
+  
+</head>
+
+
+
+<body class="m-0 p-0 bg-sky-900">
+
+  <p class="text-3xl text-center m-1  font-bold">
+    Interactive Quiz Session
+  </p>
+
+  <div class=" bg-slate-500 h-20 w-5/6 mt-10 mx-10 mb-o rounded-md js-question-container">
+    <p class="p-3 font-bold text-3xl flex justify-center items-center ">Click on the start button to begin your quiz</p>
+  </div>
+
+  <div class="m-10 bg-slate-500 mt-o mx-10 w-5/6 mb-10 flex justify-center  rounded-md js-option-container">  
+  </div>
+ 
+
+
+   <div class="flex flex-row justify-around content-end">
+    <button class="color-black bg-slate-700 p-3 rounded-lg font-bold js-previous-button">Previous</button>
+    <button class="color-black bg-slate-700 p-3 rounded-lg font-bold js-start-button">Start</button>
+    <button class="color-black bg-slate-700 p-3 rounded-lg font-bold js-submit-button ">Submit</button>
+    <button class="color-black bg-slate-700 p-3 rounded-lg font-bold js-next-button">Next</button>
+  </div>
+
+  <div class=".score">
+
+  </div>
+  <script src="Bootcamp-Project.js"></script>
+</body>
+</html>
